@@ -1,0 +1,19 @@
+---
+- name: Install Docker
+  apt:
+    name: docker.io
+    state: present
+    update_cache: yes
+
+- name: Enable Docker
+  service:
+    name: docker
+    state: started
+    enabled: true
+
+- name: Remove old nginx container
+  shell: docker rm -f nginx
+  ignore_errors: true
+
+- name: Run nginx container
+  shell: docker run -d --name nginx -p 80:80 nginx

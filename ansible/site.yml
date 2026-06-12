@@ -1,0 +1,7 @@
+---
+- name: Configure Web Server
+  hosts: web
+  become: yes
+
+  roles:
+    - docker_nginx
