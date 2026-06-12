@@ -1,85 +1,39 @@
 # DevOps SRE Platform
 
-## Overview
+## Project Overview
 
-This project demonstrates an end-to-end DevOps and Site Reliability Engineering (SRE) platform built using modern cloud-native technologies.
+This project demonstrates an end-to-end DevOps workflow using:
 
-The goal is to provision infrastructure, automate configuration, deploy applications, implement CI/CD pipelines, monitor system health, and apply SRE principles such as SLIs, SLOs, and incident management.
+- AWS EC2
+- Terraform
+- Ansible
+- Docker
+- GitHub Actions
 
-## Technology Stack
+## Architecture
 
-* Linux
-* AWS
-* Terraform
-* Ansible
-* Docker
-* Kubernetes
-* GitHub Actions
-* Prometheus
-* Grafana
-* AlertManager
+Developer
+→ GitHub
+→ GitHub Actions
+→ Terraform
+→ AWS EC2
+→ Ansible
+→ Docker
+→ Nginx
 
-## Project Structure
+## Features
 
-```text
-terraform/
-ansible/
-app/
-kubernetes/
-monitoring/
-docs/
-```
+- Infrastructure provisioning using Terraform
+- Server configuration using Ansible
+- Containerized application deployment using Docker
+- CI validation using GitHub Actions
 
-## Roadmap
+## Current Status
 
-### Phase 1
+✅ AWS Infrastructure Provisioned
 
-* AWS Infrastructure using Terraform
+✅ Dockerized Nginx Deployment
 
-### Phase 2
+✅ Ansible Automation
 
-* Server Configuration using Ansible
-
-### Phase 3
-
-* Application Containerization using Docker
-
-### Phase 4
-
-* Kubernetes Deployment
-
-### Phase 5
-
-* CI/CD with GitHub Actions
-
-### Phase 6
-
-* Monitoring and Alerting
-
-### Phase 7
-
-* SRE Practices and Incident Management
-
-## Author
-
-Aseef - DevOps / SRE Learning Journey
-
-## Progress
-
-### Phase 1 - Infrastructure as Code
-
-* [x] Configure AWS CLI
-* [x] Install Terraform
-* [x] Create AWS EC2 instance using Terraform
-* [x] Configure Security Group
-* [x] SSH into EC2 instance
-
-### Next Steps
-
-* [ ] Install Docker
-* [ ] Automate server configuration with Ansible
-* [ ] Deploy application using Docker
-* [ ] Create GitHub Actions pipeline
-* [ ] Add Prometheus and Grafana monitoring
-* [ ] Deploy application on Kubernetes
-
+✅ Terraform Validation Pipeline
