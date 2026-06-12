@@ -64,3 +64,22 @@ docs/
 
 Aseef - DevOps / SRE Learning Journey
 
+## Progress
+
+### Phase 1 - Infrastructure as Code
+
+* [x] Configure AWS CLI
+* [x] Install Terraform
+* [x] Create AWS EC2 instance using Terraform
+* [x] Configure Security Group
+* [x] SSH into EC2 instance
+
+### Next Steps
+
+* [ ] Install Docker
+* [ ] Automate server configuration with Ansible
+* [ ] Deploy application using Docker
+* [ ] Create GitHub Actions pipeline
+* [ ] Add Prometheus and Grafana monitoring
+* [ ] Deploy application on Kubernetes
+
