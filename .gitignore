@@ -1,0 +1,13 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Linux
+*.swp
+*.save
+
+# IDE
+.vscode/
