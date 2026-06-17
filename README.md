@@ -37,3 +37,9 @@ Developer
 ✅ Ansible Automation
 
 ✅ Terraform Validation Pipeline
+
+Project overview
+Architecture
+Prerequisites
+Folder structure
+How to run
